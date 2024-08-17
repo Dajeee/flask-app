@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sam's Shop</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif; /* Added font family for better text appearance */
+        }
+        main {
+            margin: 20px; /* Fixed the duplicate margin property */
+        }
+        h1 {
+            text-align: center;
+        }
+        .navbar {
+            background-color: grey;
+            overflow: hidden;
+        }
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .navbar li {
+            float: left;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color: pink;
+        }
+        @media (max-width: 600px) {
+            .navbar li {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="carts">Cart</a></li>
+            <li><a href="contact">Contact Us</a></li>
+            <li><a href="signup">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Welcome to dads Shop</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam beatae deleniti doloribus dolorum eveniet expedita id ipsum iste, laborum modi optio quae qui quis reprehenderit similique sint temporibus voluptate.</p>
+    </main>
+</body>
+
+</html>
